@@ -97,8 +97,13 @@
     border-radius: 40px;
     background-color: #D6F481;
     border: none;
+
     font-size: 24px;
     outline: none;
+}
+.btn a{
+    color: black;
+    text-decoration: none;
 }
 .new_account{
     color: #397CFF;

@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: auto;
+  background-image: url("/Assets/img/main_header.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header-container {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-container div {
+  display: flex;
+  gap: 30px;
+}
+
+.header-parent {
+  width: 100%;
+  display: flex;
+  font-weight: bolder;
+  font-size: 40px;
+  filter: invert(0.5);
+}
+
+.Profile {
+  padding: 15px;
+  border-radius: 100%;
+  background-color: palevioletred;
+}
+
+.Profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.C_Thread {
+  width: 20rem;
+  max-width: 20rem;
+  background-color: palevioletred;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.header-lower {
+  color: white;
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+.main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-child {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-main {
+  border-radius: 20px;
+  box-shadow: 1px 1px 34px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 1px 34px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 1px 34px 0px rgba(0, 0, 0, 0.75);
+  width: 80%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
